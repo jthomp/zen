@@ -11,7 +11,7 @@ module.exports =
       tabs?.activate()
     else
       bgColor = workspace.find('.editor-colors').css('background-color')
-      tabs?.deactivate()
+      # tabs?.deactivate()
 
     workspace.find('.panes .pane').css('background-color', bgColor)
     workspace.toggleClass 'zen'
